@@ -1,0 +1,12 @@
+{
+    "name": "lynnlin/simple-package-template",
+    "description": "A very simple composer package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lynn Lin",
+            "email": "lynn80827@hotmail.com"
+        }
+    ],
+    "require": {}
+}
