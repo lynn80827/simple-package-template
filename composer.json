@@ -8,5 +8,10 @@
             "email": "lynn80827@hotmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SimplePackageTemplate\\": "src/"
+        }
+    }
 }
