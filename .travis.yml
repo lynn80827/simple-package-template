@@ -8,7 +8,7 @@ install:
   - composer install
 
 script:
-  - ./vendor/bin/phpunit tests --coverage-clover=coverage.xml
+  - ./vendor/bin/phpunit -c phpunit.xml --coverage-clover=coverage.xml
 
 after_success:
   - bash <(curl -s https://codecov.io/bash) || echo "Codecov did not collect coverage reports"
